@@ -7,6 +7,9 @@
   width: 300px;
 }
 .title {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
   background-color: aqua;
 }
 .stat_list {
