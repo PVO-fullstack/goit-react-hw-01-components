@@ -1,0 +1,28 @@
+.statistics {
+  background-color: #80808014;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+
+  width: 300px;
+}
+.title {
+  background-color: aqua;
+}
+.stat_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  background-color: beige;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #80808014;
+}
+/* .label {
+  background-color: brown;
+}
+.percentage {
+  background-color: chartreuse;
+} */
