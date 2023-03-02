@@ -1,0 +1,27 @@
+.item {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  padding: 10px 40px;
+  background-color: #80808014;
+}
+.status {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 10px;
+  border-radius: 50%;
+  background-color: red;
+  transform: translateY(-50%);
+}
+.isOnline {
+  background-color: green;
+}
+.avatar {
+  display: block;
+}
+.name {
+  font-size: 30px;
+  margin: 0;
+}

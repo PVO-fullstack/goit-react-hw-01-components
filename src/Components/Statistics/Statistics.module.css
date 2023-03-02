@@ -15,17 +15,11 @@
 .stat_list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-  background-color: beige;
 }
 .item {
   display: flex;
   flex-direction: column;
+  gap: 5px;
+  padding: 10px;
   align-items: center;
-  background-color: #80808014;
 }
-/* .label {
-  background-color: brown;
-}
-.percentage {
-  background-color: chartreuse;
-} */
