@@ -13,5 +13,12 @@
 
 .transaction_history > tbody > tr {
   height: 30px;
+}
+
+.transaction_history > tbody > tr:nth-child(2n) {
   background-color: #ebdfdf;
+}
+
+.transaction_history > tbody > tr:nth-child(2n - 1) {
+  background-color: #d9c8c8;
 }
