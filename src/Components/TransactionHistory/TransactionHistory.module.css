@@ -3,22 +3,22 @@
   width: 600px;
   border: 1px solid #e7dfdf;
   text-align: center;
-  background-color: #80808014;
+  /* background-color: #80808014; */
 }
 
-.transaction_history > thead {
+.transaction_history>thead {
   height: 30px;
   background-color: #9c9cff;
 }
 
-.transaction_history > tbody > tr {
+.transaction_history>tbody>tr {
   height: 30px;
 }
 
-.transaction_history > tbody > tr:nth-child(2n) {
+.transaction_history>tbody>tr:nth-child(2n) {
   background-color: #ebdfdf;
 }
 
-.transaction_history > tbody > tr:nth-child(2n - 1) {
+.transaction_history>tbody>tr:nth-child(2n - 1) {
   background-color: #d9c8c8;
 }
